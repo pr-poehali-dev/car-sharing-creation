@@ -18,15 +18,15 @@ interface Car {
 }
 
 const cars: Car[] = [
-  { id: 1, name: 'Hyundai Solaris', pricePerHour: 350, category: 'budget', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/92cc821a-b71a-43ab-ab9d-0a462705c7ec.jpg', features: ['АКПП', 'Кондиционер', 'Bluetooth'] },
-  { id: 2, name: 'Kia Rio', pricePerHour: 380, category: 'budget', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/92cc821a-b71a-43ab-ab9d-0a462705c7ec.jpg', features: ['АКПП', 'Климат', 'USB'] },
-  { id: 3, name: 'Renault Logan', pricePerHour: 320, category: 'budget', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/92cc821a-b71a-43ab-ab9d-0a462705c7ec.jpg', features: ['МКПП', 'Кондиционер', 'AUX'] },
-  { id: 4, name: 'Toyota Camry', pricePerHour: 650, category: 'standard', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/007dba48-7050-46a1-b00b-1b96182d66e8.jpg', features: ['АКПП', 'Климат', 'Круиз', 'Подогрев'] },
-  { id: 5, name: 'Volkswagen Tiguan', pricePerHour: 700, category: 'standard', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/007dba48-7050-46a1-b00b-1b96182d66e8.jpg', features: ['АКПП', 'Полный привод', 'Парктроник'] },
-  { id: 6, name: 'Mazda CX-5', pricePerHour: 680, category: 'standard', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/007dba48-7050-46a1-b00b-1b96182d66e8.jpg', features: ['АКПП', 'Круиз', 'Камера'] },
-  { id: 7, name: 'BMW 5 Series', pricePerHour: 1200, category: 'business', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/ecb2dc98-e49d-4a29-a1da-5f7ca7b079bc.jpg', features: ['АКПП', 'Кожа', 'Премиум аудио', 'Массаж'] },
-  { id: 8, name: 'Mercedes E-Class', pricePerHour: 1350, category: 'business', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/ecb2dc98-e49d-4a29-a1da-5f7ca7b079bc.jpg', features: ['АКПП', 'Панорама', 'Автопилот', 'AMG'] },
-  { id: 9, name: 'Audi A6', pricePerHour: 1250, category: 'business', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/ecb2dc98-e49d-4a29-a1da-5f7ca7b079bc.jpg', features: ['АКПП', 'Quattro', 'Matrix LED', 'B&O'] },
+  { id: 1, name: 'Hyundai Solaris', pricePerHour: 350, category: 'budget', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/8da4288c-30ba-4c05-a438-55de4896bc86.jpg', features: ['АКПП', 'Кондиционер', 'Bluetooth'] },
+  { id: 2, name: 'Kia Rio', pricePerHour: 380, category: 'budget', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/ceb494fb-df4c-4c00-901e-70c79c4349de.jpg', features: ['АКПП', 'Климат', 'USB'] },
+  { id: 3, name: 'Renault Logan', pricePerHour: 320, category: 'budget', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/a251fd91-14ba-4bd1-853f-53ce0884a266.jpg', features: ['МКПП', 'Кондиционер', 'AUX'] },
+  { id: 4, name: 'Toyota Camry', pricePerHour: 650, category: 'standard', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/3eacadb2-3b39-40aa-ae25-4aa246c07b93.jpg', features: ['АКПП', 'Климат', 'Круиз', 'Подогрев'] },
+  { id: 5, name: 'Volkswagen Tiguan', pricePerHour: 700, category: 'standard', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/1d249dd8-a7a6-4d6a-a9d7-01fb0e7215b4.jpg', features: ['АКПП', 'Полный привод', 'Парктроник'] },
+  { id: 6, name: 'Mazda CX-5', pricePerHour: 680, category: 'standard', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/d206fe53-b8c8-4bdf-82cd-ca7cd3baa354.jpg', features: ['АКПП', 'Круиз', 'Камера'] },
+  { id: 7, name: 'BMW 5 Series', pricePerHour: 1200, category: 'business', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/76e8d363-d852-4c2a-b7cf-baf3827ef5f3.jpg', features: ['АКПП', 'Кожа', 'Премиум аудио', 'Массаж'] },
+  { id: 8, name: 'Mercedes E-Class', pricePerHour: 1350, category: 'business', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/685732fd-53db-4be0-a281-f8d208cff439.jpg', features: ['АКПП', 'Панорама', 'Автопилот', 'AMG'] },
+  { id: 9, name: 'Audi A6', pricePerHour: 1250, category: 'business', image: 'https://cdn.poehali.dev/projects/10ac6135-7fbc-474c-9bdf-e4d557ecc3b8/files/b950f7d8-9d9d-4f48-ba61-875146dbb3d0.jpg', features: ['АКПП', 'Quattro', 'Matrix LED', 'B&O'] },
 ];
 
 export default function Index() {
