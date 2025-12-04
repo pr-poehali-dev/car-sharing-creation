@@ -88,7 +88,7 @@ export default function Index() {
                   <form onSubmit={handleLogin} className="space-y-4">
                     <div className="space-y-2">
                       <Label htmlFor="login-email">Логин или Email</Label>
-                      <Input id="login-email" type="text" placeholder="ivan@example.com" required />
+                      <Input id="login-email" type="text" placeholder="ivan@gmail.com" required />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="login-password">Пароль</Label>
@@ -116,7 +116,7 @@ export default function Index() {
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="register-email">Email</Label>
-                      <Input id="register-email" type="email" placeholder="ivan@example.com" required />
+                      <Input id="register-email" type="email" placeholder="ivan@gmail.com" required />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="register-password">Пароль</Label>
